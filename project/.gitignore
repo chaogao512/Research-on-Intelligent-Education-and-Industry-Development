@@ -1,0 +1,98 @@
+# =============================================================================
+# .gitignore — CollabLearn Project (Python / AI / Education)
+# =============================================================================
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.Python
+MANIFEST
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# pytest & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Type checkers
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Jupyter checkpoints (keep .ipynb)
+.ipynb_checkpoints/
+
+# ---------------------------------------------------------------------------
+# Environment & secrets
+# ---------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+config/local_settings.py
+*_secret*
+*_credentials*
+
+# ---------------------------------------------------------------------------
+# ML model weights (large binary files)
+# ---------------------------------------------------------------------------
+models/weights/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.bin
+*.onnx
+*.pb
+*.safetensors
+
+# ---------------------------------------------------------------------------
+# Data files (keep README and small samples, exclude raw/large data)
+# ---------------------------------------------------------------------------
+data/raw/
+data/processed/
+*.csv.gz
+*.parquet
+*.feather
+*.npy
+*.npz
+
+# ---------------------------------------------------------------------------
+# Database files
+# ---------------------------------------------------------------------------
+*.sqlite
+*.sqlite3
+*.db
+
+# ---------------------------------------------------------------------------
+# OS / editor
+# ---------------------------------------------------------------------------
+.DS_Store
+._*
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

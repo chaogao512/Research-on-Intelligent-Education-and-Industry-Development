@@ -1,0 +1,244 @@
+# =============================================================================
+# .gitignore — Research on Intelligent Education and Industry Development
+# =============================================================================
+# This file excludes build artifacts, environment files, large binaries,
+# sensitive data, and OS/editor noise from version control.
+# =============================================================================
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+MANIFEST
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+.pyenv/
+.conda/
+conda-meta/
+
+# pytest & coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# mypy / type checkers
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# Jupyter Notebooks — checkpoints only (keep .ipynb files)
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ---------------------------------------------------------------------------
+# Machine Learning / AI model weights & large data files
+# ---------------------------------------------------------------------------
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.bin
+*.onnx
+*.pb
+*.tflite
+*.safetensors
+
+# Large dataset files
+*.csv.gz
+*.parquet
+*.feather
+*.npy
+*.npz
+*.arrow
+
+# Model directories (keep README / config, exclude weights)
+project/models/weights/
+project/models/*.bin
+project/models/*.pt
+project/data/raw/
+project/data/processed/
+
+# ---------------------------------------------------------------------------
+# Sensitive data & credentials
+# ---------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+*.cert
+*.p12
+*.pfx
+config/local_settings.py
+*_secret*
+*_credentials*
+*_private*
+
+# ---------------------------------------------------------------------------
+# Temporary & editor files
+# ---------------------------------------------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json.example
+
+# JetBrains IDEs (PyCharm, IntelliJ, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Vim / Emacs
+*.swp
+*.swo
+*.swn
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+Session.vim
+.netrwhist
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ---------------------------------------------------------------------------
+# Node.js (if any tooling is used)
+# ---------------------------------------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+
+# ---------------------------------------------------------------------------
+# LaTeX (if generating PDFs from .tex sources)
+# ---------------------------------------------------------------------------
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+*.dvi
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.blg
+*.bbl
+*.bcf
+*.run.xml
+
+# ---------------------------------------------------------------------------
+# Office temporary files (keep .docx/.pptx/.pdf — exclude ~$ lock files)
+# ---------------------------------------------------------------------------
+~$*.docx
+~$*.pptx
+~$*.xlsx
+~$*.doc
+~$*.xls
+~$*.ppt
+
+# ---------------------------------------------------------------------------
+# Logs & databases
+# ---------------------------------------------------------------------------
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+logs/
+log/
+
+# ---------------------------------------------------------------------------
+# Archives & compressed files (typically not source)
+# ---------------------------------------------------------------------------
+*.zip
+*.tar.gz
+*.tar.bz2
+*.rar
+*.7z
+*.gz
+*.xz
+
+# ---------------------------------------------------------------------------
+# Docker
+# ---------------------------------------------------------------------------
+.docker/
+docker-compose.override.yml
+
+# ---------------------------------------------------------------------------
+# Miscellaneous
+# ---------------------------------------------------------------------------
+*.bak
+*.tmp
+*.temp
+.cache/
+.eggs/
+*.orig

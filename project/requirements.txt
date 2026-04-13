@@ -1,0 +1,30 @@
+# Core dependencies
+networkx>=3.3            # Knowledge graph construction and analysis
+numpy>=1.26              # Numerical computing
+scipy>=1.13              # Scientific computing (BKT, statistics)
+
+# LLM integration
+openai>=1.30             # OpenAI-compatible API client (also works with local models via proxy)
+tiktoken>=0.7            # Token counting for context management
+
+# Data handling
+pandas>=2.2              # Tabular data processing for learner logs
+pydantic>=2.7            # Data validation and settings management
+
+# Storage
+sqlalchemy>=2.0          # ORM for session and learner data persistence
+
+# CLI and configuration
+click>=8.1               # Command-line interface
+pyyaml>=6.0              # YAML configuration file support
+rich>=13.7               # Rich terminal output for CLI
+
+# Utilities
+python-dateutil>=2.9     # Date/time parsing
+tqdm>=4.66               # Progress bars
+
+# Development and testing (install with: pip install -r requirements-dev.txt)
+# pytest>=8.2
+# pytest-cov>=5.0
+# mypy>=1.10
+# ruff>=0.4              # Fast Python linter
