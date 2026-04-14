@@ -1,3 +1,5 @@
+**[🇨🇳 中文版本](readme_zh.md)** | **[🇬🇧 English](#research-on-intelligent-education-and-industry-development)**
+
 # 智能教育及行业发展研究
 # Research on Intelligent Education and Industry Development
 
