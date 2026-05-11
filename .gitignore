@@ -245,3 +245,4 @@ docker-compose.override.yml
 .cache/
 .eggs/
 *.orig
+CLAUDE.md
