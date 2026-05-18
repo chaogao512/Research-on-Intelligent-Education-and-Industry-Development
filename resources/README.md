@@ -1,70 +1,56 @@
-# 📚 Course Resources
+# Resources Directory Overview
 
-This folder contains all learning materials for the course **《智能教育及行业发展研究》(Research on Intelligent Education and Industry Development)**, organized by module.
+本目录用于集中管理课程 **《智能教育及行业发展研究》** 的模块化学习资料。  
+核心目标是：让学习者快速定位每个模块的学习内容、当前可用资源及该模块在整门课中的作用。
 
 ---
 
-## Folder Structure
+## 当前目录结构（六个模块）
 
 ```
 resources/
-├── README.md                                          # This file
-├── module-01-intro-to-intelligent-education/          # Module 1 resources
-├── module-02-ai-in-education-systems/                 # Module 2 resources
-├── module-03-human-computer-collaborative-learning/   # Module 3 resources
-├── module-04-educational-data-governance/             # Module 4 resources
-└── module-05-industry-development-and-applications/  # Module 5 resources
+├── README.md
+├── module-00-introduction/
+├── module-01-overview-of-intelligent-education-and-industry-research/
+├── module-02-key-technologies-and-environments-of-intelligent-education/
+├── module-03-applications-of-intelligent-technology-in-primary-and-secondary-schools/
+├── module-04-practical-exploration-of-educational-informatization-governance/
+└── module-05-frontiers-of-intelligent-education-industry-development/
 ```
 
 ---
 
-## Module Overview
+## 模块总览（主要内容与具体作用）
 
-| # | Module Name | Key Topics |
-|---|-------------|-----------|
-| 01 | Intro to Intelligent Education | Definition, history, frameworks, global trends |
-| 02 | AI in Education Systems | LLMs, adaptive systems, intelligent tutoring |
-| 03 | Human-Computer Collaborative Learning | HCCL paradigms, Chinese HE context, case studies |
-| 04 | Educational Data Governance | Data ethics, privacy, policy, learning analytics |
-| 05 | Industry Development & Applications | EdTech market, commercial systems, career paths |
-
----
-
-## Resource Management Rules
-
-### Version Control Guidelines
-- **Always commit resources with a meaningful message**, e.g.:
-  ```
-  docs(resources): add lecture slides for module-02 week-03
-  ```
-- **Do not force-push** to `main` — use pull requests for significant additions.
-- **Tag major resource additions** with a version tag (e.g., `resources-v1.0`).
-
-### File Naming Conventions
-Use lowercase kebab-case with a prefix indicating the type and date:
-
-| Type | Prefix | Example |
-|------|--------|---------|
-| Lecture slides | `slides-` | `slides-week02-ai-learning-systems.pptx` |
-| Reading / paper | `paper-` | `paper-author2024-hccl-framework.pdf` |
-| Notes | `notes-` | `notes-week03-discussion-summary.md` |
-| Notebook | `notebook-` | `notebook-lab01-data-exploration.ipynb` |
-| Assignment brief | `brief-` | `brief-phase1-literature-review.pdf` |
-
-### Supported File Formats
-`.md`, `.pdf`, `.pptx`, `.docx`, `.ipynb`, `.txt`
-
-> ⚠️ Do **not** commit files larger than 50 MB. Use Google Drive / OneDrive and link from the module `README.md`.
-
-### Update Log Format
-Each module `README.md` maintains an update log:
-```
-| Date       | Member  | Change Description              |
-|------------|---------|---------------------------------|
-| 2026-04-01 | Member1 | Added Week 1 lecture slides     |
-```
+| 模块 | 目录名 | 主要内容 | 具体作用 |
+|---|---|---|---|
+| 模块 00 | `module-00-introduction` | 课程导入、学习方法、考核方式、课程日历 | 建立学习规则与协作节奏，作为全课程启动模块 |
+| 模块 01 | `module-01-overview-of-intelligent-education-and-industry-research` | 智能教育与行业研究概述 | 建立基础概念框架，为后续模块统一认知 |
+| 模块 02 | `module-02-key-technologies-and-environments-of-intelligent-education` | 关键技术、平台框架、智能教育环境 | 形成技术底座理解，并支撑模块作业一 |
+| 模块 03 | `module-03-applications-of-intelligent-technology-in-primary-and-secondary-schools` | 中小学场景的智能技术应用 | 将技术能力转化为教育场景应用模型 |
+| 模块 04 | `module-04-practical-exploration-of-educational-informatization-governance` | 教育信息化治理概念、路径与方法 | 强化治理研究能力，支撑实践分析与作业完成 |
+| 模块 05 | `module-05-frontiers-of-intelligent-education-industry-development` | 行业环境、产业链与发展前沿 | 形成课程收束与行业研判能力，连接综合作业输出 |
 
 ---
 
-## Access Permissions
-All team members have read/write access. External collaborators (if any) have read-only access by default. Contact the Project Lead to request write access.
+## 使用方式
+
+1. 先阅读各模块 `README.md`，了解该模块的学习目标与当前资源。
+2. 再按模块内资源顺序学习（通常为：模块简介 → 微课/资料 → 作业说明）。
+3. 新增资料时，同步更新对应模块 `README.md` 的“当前目录内容/更新记录”。
+
+---
+
+## 维护约定
+
+- 文件命名尽量清晰且可追踪（建议保留序号前缀：`01`、`02`...）。
+- 每个模块 README 至少包含：模块作用、主要内容、当前目录内容、更新记录。
+- 若模块资料尚未上传，也应在 README 中标注“当前状态/待补充内容”。
+
+---
+
+## 更新记录
+
+| Date | Member | Change Description |
+|---|---|---|
+| 2026-05-15 | Copilot | 重写 resources 总索引，更新为六模块结构并补充各模块作用说明 |

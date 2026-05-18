@@ -8,7 +8,7 @@ for use as assignment appendices or shared reports.
 Usage
 -----
 # Export a single topic
-python discussion/export_discussion.py --topic topic-01-human-computer-collaborative-learning
+python discussion/export_discussion.py --topic topic-00-course-orientation-and-learning-methods
 
 # Export all topics into one compiled file
 python discussion/export_discussion.py --all
@@ -17,8 +17,8 @@ python discussion/export_discussion.py --all
 python discussion/export_discussion.py --all --output exports/full_discussion_export.md
 
 # Export a single topic with a custom output path
-python discussion/export_discussion.py --topic topic-02-educational-data-governance \
-    --output exports/topic-02-export.md
+python discussion/export_discussion.py --topic topic-04-practical-exploration-of-educational-informatization-governance \
+    --output exports/topic-04-export.md
 
 Requirements
 ------------
@@ -279,7 +279,7 @@ def main() -> None:
     group.add_argument(
         "--topic",
         metavar="TOPIC_DIR_NAME",
-        help="Name of the topic subfolder to export (e.g., topic-01-human-computer-collaborative-learning)",
+        help="Name of the topic subfolder to export (e.g., topic-00-course-orientation-and-learning-methods)",
     )
     group.add_argument(
         "--all",

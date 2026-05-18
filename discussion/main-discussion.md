@@ -1,57 +1,31 @@
-# 📋 Main Discussion Thread Index
+# 研讨总索引（模块 00-05）
 
-> **Course**: Research on Intelligent Education and Industry Development  
-> **Team**: 4-person Research Group  
-> **Semester**: Spring 2026
-
-This file serves as the master index for all group discussions. Click a topic link to navigate to the full discussion thread.
+> **课程**：智能教育及行业发展研究  
+> **研讨总次数**：6 次  
+> **组织方式**：按模块主题依次展开
 
 ---
 
-## Active Discussions
+## 主题清单
 
-| # | Topic | Status | Opened | Facilitator | Contributions |
-|---|-------|--------|--------|-------------|---------------|
-| 01 | [Human-Computer Collaborative Learning](topic-01-human-computer-collaborative-learning/discussion.md) | 🟡 Open | 2026-04-13 | — | 0/4 |
-| 02 | [Educational Data Governance](topic-02-educational-data-governance/discussion.md) | ⚪ Pending | — | — | — |
-| 03 | [AI Tools in Higher Education](topic-03-ai-tools-in-higher-education/discussion.md) | ⚪ Pending | — | — | — |
-| 04 | [Industry Development Trends](topic-04-industry-development-trends/discussion.md) | ⚪ Pending | — | — | — |
-
-**Status Legend**: ⚪ Pending · 🟡 Open · 🟢 Concluded · 🔵 Exported
-
----
-
-## Concluded Discussions
-
-_None yet — concluded discussions will be moved here._
+| 次数 | 对应模块 | 研讨主题 | 链接 |
+|---|---|---|---|
+| 00 | 模块 00 | 课程导入、学习方法与考核要求 | [查看](topic-00-course-orientation-and-learning-methods/README.md) |
+| 01 | 模块 01 | 智能教育与行业研究概述 | [查看](topic-01-overview-of-intelligent-education-and-industry-research/README.md) |
+| 02 | 模块 02 | 智能教育关键技术与环境构建 | [查看](topic-02-key-technologies-and-environments-of-intelligent-education/README.md) |
+| 03 | 模块 03 | 中小学智能技术应用实践 | [查看](topic-03-applications-of-intelligent-technology-in-primary-and-secondary-schools/README.md) |
+| 04 | 模块 04 | 教育信息化治理实践探究 | [查看](topic-04-practical-exploration-of-educational-informatization-governance/README.md) |
+| 05 | 模块 05 | 智能教育行业发展前沿 | [查看](topic-05-frontiers-of-intelligent-education-industry-development/README.md) |
 
 ---
 
-## Key Decisions & Action Items
+## 跨主题共同行动项
 
-> This section summarizes cross-topic action items and key decisions.
-
-| Date | Decision / Action | Assigned To | Status |
-|------|-------------------|-------------|--------|
-| — | — | — | — |
-
----
-
-## Discussion Export History
-
-| Export Date | Topics Included | Output File | Exported By |
-|-------------|-----------------|-------------|-------------|
-| — | — | — | — |
+| Action | Assigned To | Deadline | Status |
+|---|---|---|---|
+| 建立 6 次研讨共用术语表与引用规范 | — | — | ⬜ |
+| 每次研讨后沉淀 1 份小结用于综合作业 | — | — | ⬜ |
 
 ---
 
-## How to Open a New Discussion
-
-1. Create a new subfolder: `discussion/topic-XX-<short-name>/`
-2. Copy the discussion template from any existing topic.
-3. Update this index with the new topic row.
-4. Announce the new discussion to the team via the agreed communication channel.
-
----
-
-_Last updated: 2026-04-13_
+_Last updated: 2026-05-15_

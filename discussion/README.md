@@ -1,83 +1,36 @@
-# 💬 Group Discussion Area
+# 课程研讨区（6次主题研讨）
 
-This folder contains all group discussion records for the 4-person research team in the course **《智能教育及行业发展研究》**.
-
----
-
-## Discussion Rules
-
-### 🗓️ Schedule & Format
-- Discussions are **asynchronous** — contribute within 48 hours of a new topic being opened.
-- Each member must contribute **at least one substantive comment** per discussion thread.
-- Weekly sync meeting notes should be added to the relevant topic folder.
-
-### 📝 How to Contribute
-1. Navigate to the appropriate topic subfolder.
-2. Open the topic's `.md` file and add your contribution under the **Member Contributions** section.
-3. Use your name/handle and timestamp: `**[Name] — YYYY-MM-DD HH:MM:**`
-4. Commit with message: `discussion(topic-XX): add contribution from [Name]`
-
-### 🏷️ Labels & Tagging
-- Use `[QUESTION]` to pose a question to the group.
-- Use `[RESPONSE]` to respond to another member's point.
-- Use `[SYNTHESIS]` to synthesize multiple views.
-- Use `[ACTION]` to propose a concrete action item.
+本目录用于管理课程 **《智能教育及行业发展研究》** 的 6 次主题研讨记录，主题与模块 00-05 一一对应。
 
 ---
 
-## Folder Structure
+## 目录结构
 
 ```
 discussion/
-├── README.md                                          # This file
-├── main-discussion.md                                 # Master thread index
-├── export_discussion.py                               # Export script
-├── topic-01-human-computer-collaborative-learning/    # Topic 1 thread
-├── topic-02-educational-data-governance/              # Topic 2 thread
-├── topic-03-ai-tools-in-higher-education/             # Topic 3 thread
-└── topic-04-industry-development-trends/              # Topic 4 thread
+├── README.md
+├── main-discussion.md
+├── export_discussion.py
+├── topic-00-course-orientation-and-learning-methods/
+├── topic-01-overview-of-intelligent-education-and-industry-research/
+├── topic-02-key-technologies-and-environments-of-intelligent-education/
+├── topic-03-applications-of-intelligent-technology-in-primary-and-secondary-schools/
+├── topic-04-practical-exploration-of-educational-informatization-governance/
+└── topic-05-frontiers-of-intelligent-education-industry-development/
 ```
 
 ---
 
-## Export Procedure
+## 研讨规则
 
-To export a discussion topic to a clean, shareable `.md` file:
-
-```bash
-# Export a specific topic
-python discussion/export_discussion.py --topic topic-01-human-computer-collaborative-learning
-
-# Export all topics to a single compiled file
-python discussion/export_discussion.py --all --output discussion_export.md
-```
-
-The exported file will include:
-- Topic metadata (title, date range, participants)
-- All member contributions with attribution and timestamps
-- Key conclusions section
-- Action items list
-- Word count and participation statistics
-
-> The exported `.md` files can be directly used as appendices in assignment submissions.
+1. 每次研讨每位成员至少 1 条高质量发言（可使用 `[QUESTION]`、`[RESPONSE]`、`[SYNTHESIS]`、`[ACTION]` 标签）。
+2. 研讨结束后由主持人补全“关键结论”和“行动项”。
+3. 如需导出汇总，使用 `discussion/export_discussion.py`。
 
 ---
 
-## Version Control for Discussion Records
+## 更新记录
 
-- **Never delete** past discussion entries — use strikethrough (`~~text~~`) to mark superseded points.
-- When a discussion concludes, the member who facilitated it should add a **Conclusion** section.
-- Archive completed discussions by adding `[CONCLUDED - YYYY-MM-DD]` to the topic title in `main-discussion.md`.
-
----
-
-## Participation Tracking
-
-| Member | Topic 01 | Topic 02 | Topic 03 | Topic 04 |
-|--------|----------|----------|----------|----------|
-| Member 1 | — | — | — | — |
-| Member 2 | — | — | — | — |
-| Member 3 | — | — | — | — |
-| Member 4 | — | — | — | — |
-
-> Update this table after each discussion concludes. ✅ = contributed, ❌ = missed, 🔄 = in progress
+| Date | Member | Change Description |
+|---|---|---|
+| 2026-05-15 | Copilot | 按模块 00-05 重建 6 次研讨主题与目录结构 |
